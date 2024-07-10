@@ -1,10 +1,10 @@
-# Django-Voice-Assistant
+# Super-Voice-Assistant
 ## Description
-Django-Voice-Assistant is a full-stack web application that creates a customizable voice assistant. It combines a Django backend with a React frontend, allowing users to interact with an AI-powered assistant through audio recordings. The application leverages the power of a chosen AI solution (e.g., Gemini or others) to foster engaging conversational experiences.
+Super-Voice-Assistant is a full-stack web application that creates a customizable voice assistant. It combines a Django backend with a React frontend, allowing users to interact with an AI-powered assistant through audio recordings. The application leverages the power of a chosen AI solution (e.g., Gemini or others) to foster engaging conversational experiences.
 
 ## Demo
-![Django-Voice-Assistant Demo](https://github.com/hounfodji/Django-Voice-Assistant/blob/master/z_demo/demo.png)
-*Caption: Django-Voice-Assistant in action, showing the voice recording interface and AI response.*
+![Super-Voice-Assistant Demo](https://github.com/hounfodji/Super-Voice-Assistant/blob/master/z_demo/demo.png)
+*Caption: Super-Voice-Assistant in action, showing the voice recording interface and AI response.*
 
 
 ## Features
@@ -22,8 +22,8 @@ Before you begin, ensure you have met the following requirements:
 ### Backend (Django)
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Django-Voice-Assistant.git
-   cd Django-Voice-Assistant
+   git clone https://github.com/hounfodji/Super-Voice-Assistant.git
+   cd Super-Voice-Assistant
    ```
 2. Create a virtual environment:
    ```bash
@@ -36,6 +36,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 4. Set up your environment variables:
    Create a `.env` file in the root directory and add your AI API key:
+   Get Gemini API key [here](https://aistudio.google.com/app/apikey)
    ```
    GEMINI_API_KEY=your_api_key_here
    ```
@@ -72,7 +73,7 @@ Before you begin, ensure you have met the following requirements:
 - `POST /api/process/`: Accepts text input and returns the AI-generated response.
 
 ## Future Features
-I'm constantly working to improve Django-Voice-Assistant. Here are some features i am planning to implement:
+I'm constantly working to improve Super-Voice-Assistant. Here are some features i am planning to implement:
 
 - [ ] Store messages in a PostgreSQL database for conversation history
 - [ ] Add option to stop AI from speaking mid-response
@@ -91,7 +92,7 @@ I'm constantly working to improve Django-Voice-Assistant. Here are some features
 We welcome contributions to help implement these features! Check our [Contributing](#contributing) section to get started.
 
 ## Contributing
-Contributions to the Django-Voice-Assistant project are welcome. Please follow these steps:
+Contributions to the Super-Voice-Assistant project are welcome. Please follow these steps:
 1. Fork the repository.
 2. Create a new branch: `git checkout -b <branch_name>`.
 3. Make your changes and commit them: `git commit -m '<commit_message>'`
