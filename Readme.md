@@ -73,7 +73,7 @@ Before you begin, ensure you have met the following requirements:
 - `POST /api/process/`: Accepts text input and returns the AI-generated response.
 
 ## Future Features
-I'm constantly working to improve Super-Voice-Assistant. Here are some features i am planning to implement:
+We are constantly working to improve Super-Voice-Assistant. Here are some features we are planning to implement:
 
 - [ ] Store messages in a PostgreSQL database for conversation history
 - [ ] Add option to stop AI from speaking mid-response
