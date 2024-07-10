@@ -83,3 +83,25 @@ If you want to contact me, you can reach me at <hospicehounfodjil@gmail.com>.
 - [Vite](https://vitejs.dev/)
 - [Axios](https://axios-http.com/)
 - [Google Generative AI](https://ai.google.dev/)
+
+
+
+
+
+# Django-Voice-Assistant
+
+## Description
+Django-Voice-Assistant is a full-stack web application that creates a customizable voice assistant. It combines a Django backend with a React frontend, allowing users to interact with an AI-powered assistant through audio recordings. The application leverages the power of a chosen AI solution (e.g., Gemini or others) to foster engaging conversational experiences.
+
+## Demo
+![Django-Voice-Assistant Demo](https://github.com/hounfodji/Django-Voice-Assistant/blob/master/z_demo/demo.png)
+*Caption: Django-Voice-Assistant in action, showing the voice recording interface and AI response.*
+
+## Features
+- Audio recording and playback
+- Speech-to-text conversion
+- AI-powered responses
+- Text-to-speech output
+- Real-time chat interface
+
+[Rest of the README content remains the same...]
