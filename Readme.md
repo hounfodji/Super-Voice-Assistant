@@ -70,6 +70,26 @@ Before you begin, ensure you have met the following requirements:
 ## API Endpoints
 - `POST /api/record/`: Accepts audio recordings and returns the transcribed text.
 - `POST /api/process/`: Accepts text input and returns the AI-generated response.
+
+## Future Features
+I'm constantly working to improve Django-Voice-Assistant. Here are some features i am planning to implement:
+
+- [ ] Store messages in a PostgreSQL database for conversation history
+- [ ] Add option to stop AI from speaking mid-response
+- [ ] Implement functionality to upload audio files for processing
+- [ ] Redesign the interface for a more beautiful and intuitive user experience
+- [ ] Multi-language support for both speech recognition and AI responses
+- [ ] User authentication and personal conversation history
+- [ ] Customizable AI personalities or specialized knowledge domains
+- [ ] Integration with external services (e.g., weather, news, calendar)
+- [ ] Voice activity detection to automatically start/stop recording
+- [ ] Sentiment analysis of user inputs for more empathetic AI responses
+- [ ] Exportable conversation transcripts
+- [ ] Mobile app version for iOS and Android
+- [ ] Offline mode with basic functionality when internet is unavailable
+
+We welcome contributions to help implement these features! Check our [Contributing](#contributing) section to get started.
+
 ## Contributing
 Contributions to the Django-Voice-Assistant project are welcome. Please follow these steps:
 1. Fork the repository.
